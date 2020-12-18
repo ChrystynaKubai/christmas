@@ -1,0 +1,30 @@
+@import url('reset.css');
+@import url('font.css');
+
+@media screen and (min-width:320px){
+  .wrap{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('christmas.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .box{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .poem{
+    margin: auto;
+    font-family:'Pacifico', cursive;
+    font-size: 5vw;
+    line-height: 11vh;
+    color: white;
+    text-align: center;
+  }
+}
